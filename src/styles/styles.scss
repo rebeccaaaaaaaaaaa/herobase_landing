@@ -1,3 +1,5 @@
+@import "colors";
+
 * {
   margin: 0;
   padding: 0;
@@ -5,13 +7,12 @@
 }
 
 body {
-  background-color: #000;
+  background-color: $bg-color;
   font-family: "Open Sans", sans-serif;
 }
 
 .container {
-  // max-width: 1600px;
   margin: auto;
-  padding-left: 15%;
-  padding-right: 15%;
+  padding-left: 5%;
+  padding-right: 5%;
 }

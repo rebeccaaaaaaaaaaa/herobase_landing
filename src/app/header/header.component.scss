@@ -1,0 +1,30 @@
+@import "../../styles/colors.scss";
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+
+  a {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    color: $link-color;
+    text-decoration: none;
+
+    transition: all ease 0.3s;
+
+    &:hover {
+      color: $main-color;
+    }
+  }
+}
