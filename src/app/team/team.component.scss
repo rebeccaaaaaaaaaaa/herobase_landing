@@ -1,0 +1,55 @@
+.sectionTitle {
+  background-image: url("../../assets//Nosso\ Time.svg");
+  height: 10rem;
+  background-repeat: no-repeat;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  padding-top: 5rem;
+}
+
+.card {
+  width: 75%;
+  margin-bottom: 4rem;
+  position: relative;
+  img {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+.cardInfo {
+  background: rgba(255, 136, 0, 0.7);
+  backdrop-filter: blur(15px);
+  border-radius: 25px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  padding: 1rem;
+  text-align: center;
+
+  p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+
+    color: #151520;
+  }
+
+  span {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+
+    color: rgba(255, 255, 255, 0.5);
+  }
+}
